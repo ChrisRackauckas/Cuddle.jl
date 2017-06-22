@@ -3,7 +3,7 @@ module Cuddle
 using Reexport
 
 for p in Pkg.available()
-  @reexport using $p
+  eval(:(@reexport using $(symbol(p))))
 end
 
 end # module
