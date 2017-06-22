@@ -1,11 +1,4 @@
 julia 0.5
-
-Console
-REQUIRE
-pkpd_plan
-
-
-for s in Pkg.available(); println(s); end
 AbstractDomains
 AbstractTables
 AbstractTrees
